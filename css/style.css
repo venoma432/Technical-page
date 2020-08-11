@@ -1,0 +1,80 @@
+body {
+  font-size: 1rem;
+  color: #333333;
+  background-color: #f2f2f2;
+  font-family: "Open Sans", Arial, sans-serif;
+  line-height: 1.5;
+}
+
+
+p {
+  padding: 0 30px 0 10px;
+}
+
+li {
+  padding-right: 30px;
+}
+
+/* navigation */
+#navbar {
+  width: 300px;
+  height: 100%;
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  border-right: solid;
+  border-color: rgb(0, 22, 22);
+  border-color: rgba(0, 22, 22, 0.4);
+}
+
+#navbar li {
+  border-top: 1px solid;
+  list-style: none;
+  width: 100%;
+  position: relative;
+}
+
+.nav {
+  display: block;
+  height: 100%;
+}
+
+header {
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 5px;
+  font-weight: bolder;
+}
+
+
+
+/* .my-custom-scrollbar {
+  position: relative;
+  height: 600px;
+  overflow-y: scroll;
+} */
+
+
+#Introduction {
+  /* float: left; */
+  padding-left: 0;
+  margin-left: 0;
+}
+
+
+/* main document */
+.main {
+  position: absolute;
+  margin-left: 310px;
+  padding: 20px;
+  margin-bottom: 110px;
+}
+
+.snippet {
+  font-size: 0.8rem;
+  font-style: italic;
+  background-color: #f2f2f2;
+  padding: 10px 0 10px 30px;
+  ;
+}
